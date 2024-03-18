@@ -41,7 +41,7 @@ public class LiveTVPage {
 	}
 	
 	public MobileElement waitExoAdsTextView(){
-		  WebDriverWait wait = new WebDriverWait(driver, 40); // Initializing WebDriverWait with a timeout of 20 seconds
+		  WebDriverWait wait = new WebDriverWait(driver, 40); // Initializing WebDriverWait with a timeout of 40 seconds
 
 	        // Wait for the presence of the loading element
 	        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//android.widget.FrameLayout[@content-desc=\"Show player controls\"]/android.widget.FrameLayout[1]/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View/android.view.View/android.widget.TextView")));

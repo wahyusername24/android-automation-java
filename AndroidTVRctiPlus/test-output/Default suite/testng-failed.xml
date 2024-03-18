@@ -6,8 +6,6 @@
       <class name="tests.LiveTVTest">
         <methods>
           <include name="setUp"/>
-          <include name="testNavigateToLiveTV"/>
-          <include name="navigateOnTV"/>
           <include name="testPlayRCTI"/>
         </methods>
       </class> <!-- tests.LiveTVTest -->
